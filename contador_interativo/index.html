@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador JS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        
+        .positivo {
+            color: green;
+        }
+        .negativo {
+            color: red;
+        }
+        .zero {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="numero" class="zero">0</h1>
+
+    <button id="btn-decrementar">Decrementar</button>
+    <button id="btn-zerar">Zerar</button>
+    <button id="btn-incrementar">Incrementar</button>
+
+    <script src="contador.js"></script>
+</body>
+</html>
